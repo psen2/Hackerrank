@@ -1,17 +1,17 @@
-Input Format
+# Input Format
   Four integers X,Y,Z and N each on four separate lines, respectively.
-Constraints
+# Constraints
   Print the list in lexicographic increasing order.
-Sample Input 0
+# Sample Input 0
 1
 1
 1
 2
 
-Sample Output 0
+# Sample Output 0
 [[0, 0, 0], [0, 0, 1], [0, 1, 0], [1, 0, 0], [1, 1, 1]]
 
-Solution (without list comprehension):
+#Solution (without list comprehension):
 if __name__ == '__main__':
     x = int(input())
     y = int(input())
@@ -29,7 +29,7 @@ if __name__ == '__main__':
                     p += 1 
     print (ar)
 
-Solution (with list comprehension): 
+# Solution (with list comprehension): 
 if __name__ == '__main__':
     x = int(input())
     y = int(input())
